@@ -164,3 +164,20 @@ header.sticky {
   margin-bottom: 15px;
   cursor: pointer;
 }
+
+.container-box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.container-box p{
+  font-size: 15px;
+  color: var(--second-color);
+}
+
+.container-box:hover{
+  box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+  border: 1px solid transparent;
+  transform: translateY(-3px);
+}
