@@ -62,3 +62,11 @@ header {
   box-shadow: 5px 10px 30px rbg(85 85 85 / 20%);
   border-radius: 4px;
 }
+
+#menu-icon {
+  color: var(--bg-color);
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
