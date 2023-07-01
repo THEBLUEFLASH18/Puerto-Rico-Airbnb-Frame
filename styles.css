@@ -111,3 +111,9 @@ section {
   border-radius: 4px;
   transition: ease .40s;
 }
+
+.home-btn:hover{
+  background: var(--bg-color);
+  transform: scale(1.1);
+}
+}
