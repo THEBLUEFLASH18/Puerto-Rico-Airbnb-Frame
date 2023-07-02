@@ -107,7 +107,7 @@ section {
   font-size: 16px;
   padding: 15px 30px;
   background: #ffffffbf;
-  color: var(--main-color);
+  color: black;
   border-radius: 4px;
   transition: ease .40s;
 }
@@ -180,4 +180,13 @@ header.sticky {
   box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
   border: 1px solid transparent;
   transform: translateY(-3px);
+}
+
+.container{
+  background:url(/images/WaterSunset.jpg);
+  background-size: cover;
+}
+
+.container h2 {
+  color: white;
 }
