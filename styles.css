@@ -200,12 +200,21 @@ header.sticky {
   line-height: 1.2;
 }
 
-.package-content .Inside-content .Outdoor-content{
+.package-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 5rem;
+}
+
+.thum img {
+  width: 400px;
+  height: 400px;
+}
+
+.package h3 {
+  text-align: center;
 }
 
 
