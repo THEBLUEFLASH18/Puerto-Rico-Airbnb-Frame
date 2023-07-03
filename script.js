@@ -11,8 +11,8 @@ var insideImages = [
 ];
 
 var outsideImages = [
-  'path/to/outside/image1.jpg',
-  'path/to/outside/image2.jpg',
+  'images/Outdoor/Image15.jpeg',
+  'images/Outdoor/Image20.jpeg',
 ];
 
 var currentInsideImageIndex = 0;
