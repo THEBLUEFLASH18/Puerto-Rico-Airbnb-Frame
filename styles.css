@@ -78,7 +78,7 @@ section {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("/images/SunsetPR.jpg");
+  background-color: #E89CAE;
   background-size: cover;
   background-position: center;
   display: grid;
@@ -215,6 +215,29 @@ header.sticky {
 
 .package h3 {
   text-align: center;
+}
+
+
+@keyframes cloud-animation1 {
+  0% { opacity: 0; transform: translateX(50vw); }
+  50% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-50vw); }
+}
+
+@keyframes cloud-animation2 {
+  0% { opacity: 0; transform: translateY(-50vh); }
+  50% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(50vh); }
+}
+
+#cloud-icon1 {
+  position: absolute;
+  animation: cloud-animation1 5s infinite;
+}
+
+#cloud-icon2 {
+  position: absolute;
+  animation: cloud-animation2 5s infinite;
 }
 
 

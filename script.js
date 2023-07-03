@@ -34,3 +34,20 @@ function changeImageOutdoor() {
 setInterval(changeImageIndoor, 3000); // change every 3 seconds
 setInterval(changeImageOutdoor, 3000); // change every 3 seconds
 
+
+
+function randomPosition(element) {
+  var x = window.innerWidth;
+  var y = window.innerHeight;
+  var randomX = Math.floor(Math.random()*x);
+  var randomY = Math.floor(Math.random()*y);
+  element.style.left = randomX + 'px';
+  element.style.top = randomY + 'px';
+}
+
+window.onload = function() {
+  var cloud1 = document.getElementById('cloud-icon1');
+  var cloud2 = document.getElementById('cloud-icon2');
+  setInterval(function(){ randomPosition(cloud1); }, 5000); // Change position every 5 seconds
+  setInterval(function(){ randomPosition(cloud2); }, 5000); // Change position every 5 seconds
+}
