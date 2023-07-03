@@ -6,8 +6,8 @@ window.addEventListener("scroll", function() {
 
 
 var insideImages = [
-  'path/to/inside/image1.jpg',
-  'path/to/inside/image2.jpg',
+  'images/Indoor/Image4.jpeg',
+  'images/Indoor/Image5.jpeg'
 ];
 
 var outsideImages = [
