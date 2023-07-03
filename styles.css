@@ -191,17 +191,21 @@ header.sticky {
   color: white;
 }
 
-
-
-
-
-.thum img {
-  height: 400px;
-  width: 400px;
-  padding: 15px;
-  background: var(--bg-color);
-  box-shadow: 5px 10px 30px rgb(85 85 85 /20%);
-  border-radius: 4px;
-  margin-bottom: 15px;
-  cursor: pointer;
+.title {
+  text-align: center;
 }
+
+.title h2 {
+  font-size: var(--h2-font);
+  line-height: 1.2;
+}
+
+.package-content .Inside-content .Outdoor-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+
